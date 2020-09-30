@@ -494,6 +494,11 @@ body.lock {
 
 /* ABOUT PAGE */
 
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .about-title {
   color: var(--txt-c-dark);
   text-align: left;
@@ -560,6 +565,8 @@ body.lock {
 
 .personal-projects {
   background: var(--c-dark);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .personal-project-item-container {
@@ -580,10 +587,6 @@ body.lock {
 
 .personal-project-img {
   width: 100%;
-}
-
-.personal-projects-title {
-  margin-top: 20px;
 }
 
 .projet-item-dot-container {
@@ -627,6 +630,11 @@ body.lock {
 }
 
 /* TEAM PROJECT */
+
+.team-projects {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 .team-projects .container {
   position: relative;
