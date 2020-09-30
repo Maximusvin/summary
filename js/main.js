@@ -5,9 +5,9 @@ const refs = {
   menu: document.querySelector(".menu"),
 };
 
-refs.burger.addEventListener("click", toggleBerger);
+refs.burger.addEventListener("click", toggleBurger);
 
-function toggleBerger(event) {
+function toggleBurger(event) {
   event.preventDefault();
   event.currentTarget.classList.toggle("active");
   refs.menu.classList.toggle("active");
