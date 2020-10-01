@@ -17,7 +17,7 @@
   --txt-c-light: var(--c-light);
 
   /* font */
-  --font-main: "Acrom", sans-serif;
+  --font-main: 'Acrom', sans-serif;
 
   /* container width */
   --vertical-scroll: 20px;
@@ -32,34 +32,31 @@
 }
 
 @font-face {
-  font-family: "Acrom";
-  src: url("../fonts/acrom/Acrom-ExtraBold.eot");
-  src: local("Acrom ExtraBold"), local("Acrom-ExtraBold"),
-    url("../fonts/acrom/Acrom-ExtraBold.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/acrom/Acrom-ExtraBold.woff") format("woff"),
-    url("../fonts/acrom/Acrom-ExtraBold.ttf") format("truetype");
+  font-family: 'Acrom';
+  src: url('../fonts/acrom/Acrom-ExtraBold.eot');
+  src: local('Acrom ExtraBold'), local('Acrom-ExtraBold'),
+    url('../fonts/acrom/Acrom-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/acrom/Acrom-ExtraBold.woff') format('woff'),
+    url('../fonts/acrom/Acrom-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Acrom";
-  src: url("../fonts/acrom/Acrom-Bold.eot");
-  src: local("Acrom Bold"), local("Acrom-Bold"),
-    url("../fonts/acrom/Acrom-Bold.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/acrom/Acrom-Bold.woff") format("woff"),
-    url("../fonts/acrom/Acrom-Bold.ttf") format("truetype");
+  font-family: 'Acrom';
+  src: url('../fonts/acrom/Acrom-Bold.eot');
+  src: local('Acrom Bold'), local('Acrom-Bold'), url('../fonts/acrom/Acrom-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/acrom/Acrom-Bold.woff') format('woff'), url('../fonts/acrom/Acrom-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Acrom";
-  src: url("../fonts/acrom/Acrom-Regular.eot");
-  src: local("Acrom Regular"), local("Acrom-Regular"),
-    url("../fonts/acrom/Acrom-Regular.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/acrom/Acrom-Regular.woff") format("woff"),
-    url("../fonts/acrom/Acrom-Regular.ttf") format("truetype");
+  font-family: 'Acrom';
+  src: url('../fonts/acrom/Acrom-Regular.eot');
+  src: local('Acrom Regular'), local('Acrom-Regular'),
+    url('../fonts/acrom/Acrom-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/acrom/Acrom-Regular.woff') format('woff'), url('../fonts/acrom/Acrom-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -156,8 +153,8 @@ body {
 }
 
 .visually-hidden:not(:focus):not(:active),
-input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -209,7 +206,7 @@ input[type="radio"].visually-hidden {
 
 .logo__figere:before {
   position: absolute;
-  content: "MK";
+  content: 'MK';
   font-weight: 600;
   text-transform: uppercase;
   color: var(--txt-c-light);
@@ -223,7 +220,7 @@ input[type="radio"].visually-hidden {
 .logo__figere:after {
   display: block;
   position: absolute;
-  content: "";
+  content: '';
   width: 50px;
   height: 50px;
   border: 2px solid var(--c-light);
@@ -309,7 +306,7 @@ input[type="radio"].visually-hidden {
 
 .header__burger::before,
 .header__burger::after {
-  content: "";
+  content: '';
   background-color: var(--c-grey-light);
   position: absolute;
   width: 10px;
@@ -446,9 +443,12 @@ body.lock {
   margin-bottom: 30px;
 }
 
+.experience__skills-wrap {
+  padding-left: 15px;
+}
+
 .experience__skills {
   display: flex;
-  align-items: center;
   margin-bottom: 20px;
   transition: all 0.2s linear;
 }
@@ -636,7 +636,7 @@ body.lock {
 
 .team-projects {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .team-projects .container {
@@ -679,6 +679,103 @@ body.lock {
 
 .team-project-item:last-child {
   margin-bottom: 0;
+}
+
+.callback-form {
+  padding-bottom: 40px;
+}
+
+.callback-form__container {
+  background-color: var(--c-dark);
+  padding: 35px 20px 40px;
+  color: var(--txt-c-light);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.callback-form__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  width: 260px;
+}
+
+.callback-form__desc {
+  font-size: 17px;
+  line-height: 150%;
+  margin-bottom: 30px;
+  width: 260px;
+}
+
+.callback-form__input {
+  background: transparent;
+  outline: none;
+  padding: 10px 10px 15px;
+  border-bottom: 1px solid var(--c-grey-blue);
+  margin-bottom: 25px;
+  color: var(--txt-c-grey);
+  text-align: center;
+}
+
+.callback-form__input::placeholder {
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--txt-c-grey);
+}
+
+.callback-form__btn {
+  padding: 14px 15px;
+}
+
+/* CALCULATOR FORM SECTION */
+
+.calculator {
+  background: var(--c-dark);
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.calculator-icon {
+  width: 195px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calculator-descr {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--txt-c-light);
+  margin: 0 0 30px 0;
+}
+
+.calculator-descr span {
+  background: var(--c-accent);
+  padding: 5px;
+}
+
+.calculator-descr .calculator-descr-accent {
+  padding: 5px 10px;
+}
+
+.calculator-title {
+  width: 270px;
+  margin-bottom: 20px;
+}
+
+.calculator-text {
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--txt-c-light);
+  margin: 20px 0 30px 0;
 }
 
 /* ------ Media Queries ------ */
