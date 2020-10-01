@@ -459,14 +459,18 @@ body.lock {
   margin-right: 15px;
 }
 
-.experience__skills-dotted i {
-  color: var(--txt-c-grey);
-  font-size: 8px;
+.experience__skills-dotted span {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border: 1px solid var(--c-grey-blue);
+  border-radius: 50%;
   margin-right: 5px;
+  transition: all 0.2s linear;
 }
 
 .experience__skills-dotted .experience__skills-accent {
-  color: var(--txt-c-accent);
+  border: 1px solid var(--c-accent);
   transition: all 0.2s linear;
 }
 
@@ -476,11 +480,7 @@ body.lock {
 }
 
 .experience__skills:hover .experience__skills-accent {
-  text-shadow: 0 0 5px var(--txt-c-accent);
-}
-
-.experience__skills:hover {
-  transform: translateX(3px);
+  background-color: var(--c-accent);
 }
 
 .section-title {
@@ -583,6 +583,7 @@ body.lock {
   color: var(--txt-c-light);
   margin: 25px 0;
   display: flex;
+  align-items: start;
 }
 
 .personal-project-img {
@@ -618,10 +619,8 @@ body.lock {
 }
 
 .personal-project-icon {
-  font-size: 18px;
-  color: var(--c-accent);
   margin-right: 15px;
-  margin-top: 3px;
+  padding-top: 4px;
 }
 
 .personal-project-btn {
@@ -666,6 +665,7 @@ body.lock {
   color: var(--txt-c-dark);
   margin: 25px 0;
   display: flex;
+  align-items: start;
 }
 
 .team-project-item {
