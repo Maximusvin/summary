@@ -576,6 +576,10 @@ body.lock {
   position: relative;
 }
 
+.personal-projects-title {
+  margin-bottom: 40px;
+}
+
 .personal-project-name {
   font-weight: normal;
   font-size: 17px;
