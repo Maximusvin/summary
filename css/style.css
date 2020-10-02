@@ -193,7 +193,7 @@ input[type='radio'].visually-hidden {
   display: block;
 }
 
-.logo__figere {
+.logo__figure {
   display: block;
   width: 50px;
   height: 50px;
@@ -203,7 +203,7 @@ input[type='radio'].visually-hidden {
   transition: all 0.2s linear;
 }
 
-.logo__figere:before {
+.logo__figure:before {
   position: absolute;
   content: 'MK';
   font-weight: 600;
@@ -216,7 +216,7 @@ input[type='radio'].visually-hidden {
   transition: all 0.2s linear;
 }
 
-.logo__figere:after {
+.logo__figure:after {
   display: block;
   position: absolute;
   content: '';
@@ -228,25 +228,24 @@ input[type='radio'].visually-hidden {
   transition: all 0.2s linear;
 }
 
-.logo__figere:hover,
-.logo__figere:focus {
+.logo__figure:hover,
+.logo__figure:focus {
   border: 2px solid var(--c-light);
   background-color: transparent;
   box-shadow: 0 0 10px rgb(255, 255, 255, 0.5);
 }
 
-.logo__figere:hover::before,
-.logo__figere:focus::before {
+.logo__figure:hover::before,
+.logo__figure:focus::before {
   top: 17px;
   left: 10px;
   font-size: 24px;
 }
 
-.logo__figere:hover::after,
-.logo__figere:focus::after {
+.logo__figure:hover::after,
+.logo__figure:focus::after {
   border: 2px solid transparent;
   background-color: var(--c-accent);
-  box-shadow: 0 0 5px rgb(255, 255, 255, 0.5);
 }
 
 .menu__item:not(:last-child) {
