@@ -417,7 +417,6 @@ body.lock {
 .offer__video-btn:focus {
   color: var(--txt-c-light);
   background-color: var(--c-accent);
-  box-shadow: 1px 1px 1px var(--c-light);
   text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
 }
 
