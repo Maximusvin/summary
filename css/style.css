@@ -148,7 +148,6 @@ body {
 
 .btn:hover,
 .btn:focus {
-  box-shadow: 1px 1px 1px var(--c-light);
   text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
 }
 
@@ -169,7 +168,7 @@ input[type='radio'].visually-hidden {
 }
 
 .container {
-  width: 90%;
+  width: 93%;
   margin: 0 auto;
 }
 
@@ -726,6 +725,11 @@ body.lock {
   line-height: 150%;
   text-align: center;
   color: var(--txt-c-grey);
+  transition: all 0.4s linear;
+}
+
+.callback-form__input:focus::placeholder {
+  text-indent: 100%;
 }
 
 .callback-form__btn {
@@ -742,8 +746,6 @@ body.lock {
 
 .calculator-icon {
   width: 195px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .calculator-descr {
@@ -776,6 +778,68 @@ body.lock {
   text-align: center;
   color: var(--txt-c-light);
   margin: 20px 0 30px 0;
+}
+
+.calculator-form {
+  background-color: var(--c-light);
+  padding: 30px 20px 40px;
+}
+
+.calculator-form__input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.calculator-form__input-field {
+  margin-right: 5px;
+}
+
+.calculator-form__title {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+  color: var(--txt-c-dark);
+  margin-bottom: 15px;
+}
+
+.calculator-form__label {
+  margin-right: 20px;
+  font-size: 17px;
+  line-height: 150%;
+  color: var(--txt-c-dark);
+}
+
+.calculator-form__select {
+  background-color: transparent;
+  border-bottom: 1px solid var(--c-grey-light);
+  padding: 5px 0 17px 0;
+  outline: none;
+}
+
+.calculator-form__radio-container {
+  display: flex;
+  align-items: center;
+}
+
+.calculator-form__total {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+  color: var(--txt-c-dark);
+  margin-bottom: 10px;
+}
+
+.calculator-form__total-cost {
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--txt-c-dark);
+  margin-bottom: 25px;
+}
+
+.calculator-form__input-cost {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ------ Media Queries ------ */
@@ -817,6 +881,12 @@ body.lock {
 }
 
 @media screen and (max-width: 991px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .menu {
     position: fixed;
     width: 100%;
