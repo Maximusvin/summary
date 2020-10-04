@@ -724,11 +724,8 @@ body.lock {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.team-projects .container {
   position: relative;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .team-projects-title {
