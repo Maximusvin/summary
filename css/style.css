@@ -881,7 +881,7 @@ body.lock {
 .calculator-form {
   background-color: var(--c-light);
   padding: 30px 20px 40px;
-  width: 300px;
+  width: 290px;
 }
 
 .calculator-form__input {
