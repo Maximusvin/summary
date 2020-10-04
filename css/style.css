@@ -1064,7 +1064,7 @@ body.lock {
   top: 0;
   left: 0;
   background: var(--modal-bgd-dark);
-  z-index: 2;
+  z-index: 6;
   overflow: auto;
   transition: all 0.2s linear;
   pointer-events: none;
