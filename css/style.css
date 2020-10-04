@@ -1113,13 +1113,6 @@ body.lock {
     right: 0;
   }
 
-  .contact {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
   .menu {
     overflow: auto;
     margin-bottom: 70px;
