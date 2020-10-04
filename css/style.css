@@ -1084,6 +1084,7 @@ body.lock {
   top: 16px;
   right: 16px;
   cursor: pointer;
+  z-index: 2;
 }
 
 /* MY VIDEO MODAL */
