@@ -130,6 +130,7 @@ body {
   cursor: pointer;
   padding: 20px 30px;
   transition: all 0.2s linear;
+  position: relative;
 }
 
 .accent-btn {
@@ -144,6 +145,22 @@ body {
   color: var(--txt-c-light);
   cursor: pointer;
   transition: all 0.2s linear;
+}
+
+.btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 1s ease;
+}
+
+.btn:hover:before,
+.btn:focus:before {
+  width: 100%;
 }
 
 .btn:hover,
