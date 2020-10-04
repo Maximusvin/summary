@@ -16,6 +16,9 @@
   --txt-c-accent: var(--c-accent);
   --txt-c-light: var(--c-light);
 
+  /* modals */
+  --modal-bgd-dark: rgba(20, 29, 45, 0.8);
+
   /* font */
   --font-main: 'Acrom', sans-serif;
 
@@ -1051,6 +1054,56 @@ body.lock {
   border-left: none;
   margin: 0;
   padding-left: 8px;
+}
+
+/* MODAL */
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--modal-bgd-dark);
+  z-index: 2;
+  overflow: auto;
+  transition: all 0.2s linear;
+  pointer-events: none;
+  display: block;
+  opacity: 0;
+}
+
+.modal-active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-close-btn {
+  font-size: 18px;
+  position: absolute;
+  color: var(--c-grey-blue);
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+/* MY VIDEO MODAL */
+
+.my-video-content {
+  width: 100%;
+}
+
+.my-video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px 10px;
+}
+
+.my-video-close-btn {
+  background: var(--c-light);
+  color: var(--c-dark);
+  padding: 10px 14px;
 }
 
 /* ------ Media Queries ------ */
