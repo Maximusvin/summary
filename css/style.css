@@ -1087,6 +1087,10 @@ body.lock {
   z-index: 3;
 }
 
+.body-scroll-disable {
+  overflow: hidden;
+}
+
 /* MY VIDEO MODAL */
 
 .my-video-content {

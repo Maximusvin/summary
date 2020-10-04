@@ -65,7 +65,7 @@
             <img src="./img/Kozlov.png" alt="Maxim Kozlov" class="ofer__about-img" />
           </div>
           <p class="ofer__about-me">About me in 2 minutes</p>
-          <button type="button" class="offer__video-btn accent-btn">
+          <button type="button" class="offer__video-btn accent-btn" id="my-video-btn">
             <i class="fas fa-play"></i>
             Play
           </button>
@@ -526,26 +526,24 @@
       </div>
     </footer>
 
-    <div class="modals-wrraper">
-      <div class="modal modal-active">
-        <div class="my-video-container">
-          <i class="fas fa-times modal-close-btn my-video-close-btn"></i>
-          <iframe
-            src="https://player.vimeo.com/video/464795674"
-            width="640"
-            height="360"
-            frameborder="0"
-            allow="autoplay; fullscreen"
-            allowfullscreen
-          ></iframe>
-
-          <!-- <video class="my-video-content" src="https://vimeo.com/337234617" controls></video> -->
-        </div>
+    <div class="modal" id="my-video-modal">
+      <div class="my-video-container">
+        <i class="fas fa-times modal-close-btn my-video-close-btn"></i>
+        <iframe
+          src="https://player.vimeo.com/video/464795674"
+          width="640"
+          height="360"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
+        <!-- <video class="my-video-content" src="https://vimeo.com/337234617" controls></video> -->
       </div>
     </div>
 
     <script src="./js/main.js" type="module"></script>
     <script src="./js/choices.min.js" type="module"></script>
     <script src="./js/calculator.js" type="module"></script>
+    <script src="./js/modals.js" type="module"></script>
   </body>
 </html>
