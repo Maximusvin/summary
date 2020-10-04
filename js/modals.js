@@ -19,60 +19,58 @@ const modals = [mobileMenu, myVideoModal];
 const buttons = [mobileMenuBtn, myVideoBtn];
 
 buttons.forEach((btn, index) => {
-    const projectModal = modals[index];
+  const projectModal = modals[index];
 
-    if (btn) {
-        btn.addEventListener('click', (event) => {
-            event.preventDefault();
-            projectModal.classList.add(MODAL_ACTIVE_CLASS);
+  if (btn) {
+    btn.addEventListener('click', event => {
+      event.preventDefault();
+      projectModal.classList.add(MODAL_ACTIVE_CLASS);
 
-            document.body.classList.add(BODY_SCROLL_DISABLE_CLASS);
-        })
-    }
+      document.body.classList.add(BODY_SCROLL_DISABLE_CLASS);
+    });
+  }
 });
 
-
 modalCloseBtns.forEach(btn => {
-    btn.addEventListener('click', hideModal);
-})
+  btn.addEventListener('click', hideModal);
+});
 
 function enableCloseModalOnBgdClick() {
-    if (modalContainers.length) {
-        modalContainers.forEach( container => {
-            container.addEventListener('click', event => event.stopPropagation());
-        });
-    }
+  if (modalContainers.length) {
+    modalContainers.forEach(container => {
+      container.addEventListener('click', event => event.stopPropagation());
+    });
+  }
 
-    if (modalsWrappers.length) {
-        modalsWrappers.forEach( container => {
-            container.addEventListener('click', hideModal);
-        });
-    }
+  if (modalsWrappers.length) {
+    modalsWrappers.forEach(container => {
+      container.addEventListener('click', hideModal);
+    });
+  }
 }
 
-
 function hideModal() {
-    const modalToClose = document.querySelector(`.${MODAL_ACTIVE_CLASS}`);
+  const modalToClose = document.querySelector(`.${MODAL_ACTIVE_CLASS}`);
 
-    if (modalToClose) {
-        modalToClose.classList.remove(MODAL_ACTIVE_CLASS);
-        document.body.classList.remove(BODY_SCROLL_DISABLE_CLASS);    
-    }
+  if (modalToClose) {
+    modalToClose.classList.remove(MODAL_ACTIVE_CLASS);
+    document.body.classList.remove(BODY_SCROLL_DISABLE_CLASS);
+  }
 
-    const video = document.querySelector('video');
+  const video = document.querySelector('video');
 
-    if (video)  {
-        video.pause();
-    }
+  if (video) {
+    video.pause();
+  }
 }
 
 function hideModalOnMobileMenuElementsClick() {
-    const MOBILE_MENU_ITEM_CLOSE_DELAY = 150;
-    const menuElements = document.querySelectorAll('.mobile-menu-item');
+  const MOBILE_MENU_ITEM_CLOSE_DELAY = 150;
+  const menuElements = document.querySelectorAll('.mobile-menu-item');
 
-    if (menuElements.length) {
-        menuElements.forEach( container => {
-            container.addEventListener('click', () => setTimeout(hideModal, MOBILE_MENU_ITEM_CLOSE_DELAY));
-        });
-    }
+  if (menuElements.length) {
+    menuElements.forEach(container => {
+      container.addEventListener('click', () => setTimeout(hideModal, MOBILE_MENU_ITEM_CLOSE_DELAY));
+    });
+  }
 }
