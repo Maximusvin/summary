@@ -1106,6 +1106,7 @@ body.lock {
     padding-top: 150px;
     text-align: center;
     z-index: 2;
+    overflow: auto;
     transition: all 0.2s linear;
   }
 
