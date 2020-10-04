@@ -1103,7 +1103,7 @@ body.lock {
     top: 0;
     right: -100%;
     background-color: var(--c-light);
-    padding-top: 100px;
+    padding-top: 150px;
     text-align: center;
     z-index: 2;
     transition: all 0.2s linear;
