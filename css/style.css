@@ -388,6 +388,9 @@ body.lock {
   width: 180px;
   margin-left: auto;
   margin-right: auto;
+  position: absolute;
+  z-index: 1000;
+  left: 22px;
 }
 
 /* Animation foto */
