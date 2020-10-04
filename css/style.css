@@ -1114,7 +1114,7 @@ body.lock {
 
   .menu {
     overflow: auto;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
 
   .menu.active .menu__item {
