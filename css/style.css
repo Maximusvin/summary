@@ -725,7 +725,7 @@ body.lock {
   flex-direction: column;
   align-items: center;
   position: relative;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 .team-projects-title {

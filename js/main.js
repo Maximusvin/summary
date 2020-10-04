@@ -13,3 +13,11 @@ function toggleBurger(event) {
   refs.menu.classList.toggle('active');
   document.body.classList.toggle('lock');
 }
+
+// function openBurger(event) {
+//   event.currentTarget.classList.add('active');
+//   refs.menu.classList.add('active');
+//   document.body.classList.add('lock');
+// }
+
+// function closeBurger(event) {}
