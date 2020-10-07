@@ -376,9 +376,14 @@
           <form class="callback-form__container">
             <h3 class="callback-form__title">/Are you minding [a project?]</h3>
             <p class="callback-form__desc">Leave a request to discuss the task and technical requirements</p>
-            <input type="text" class="callback-form__input" placeholder="Name" />
-            <input type="email" class="callback-form__input" placeholder="Email" />
-            <input type="tel" class="callback-form__input" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+            <input type="text" class="callback-form__input" placeholder="Name" id="callback-form-input-name" />
+            <input type="email" class="callback-form__input" placeholder="Email" id="callback-form-input-email" />
+            <input
+              type="tel"
+              class="callback-form__input"
+              placeholder="+380 (__) ___-__-__"
+              id="callback-form-input-phone"
+            />
             <button class="btn callback-form__btn">Discuss the project —</button>
           </form>
         </div>
@@ -974,5 +979,6 @@
     <script src="./js/choices.min.js" type="module"></script>
     <script src="./js/calculator.js" type="module"></script>
     <script src="./js/modals.js" type="module"></script>
+    <script src="./js/callback-form.js" type="module"></script>
   </body>
 </html>

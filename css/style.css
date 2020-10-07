@@ -814,6 +814,7 @@ body.lock {
   margin-bottom: 25px;
   color: var(--txt-c-grey);
   text-align: center;
+  transition: all 0.2s linear;
 }
 
 .callback-form__input::placeholder {
@@ -830,6 +831,14 @@ body.lock {
 
 .callback-form__btn {
   padding: 14px 15px;
+}
+
+.callback-form-input-error {
+  border-bottom: 1px solid #ff0000;
+}
+
+.callback-form-input-error::placeholder {
+  color: #ff0000;
 }
 
 /* CALCULATOR FORM SECTION */
