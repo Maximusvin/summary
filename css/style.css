@@ -529,8 +529,11 @@ body.lock {
 
 .experience__skills {
   display: flex;
-  margin-bottom: 20px;
   transition: all 0.2s linear;
+}
+
+.experience__skills:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .experience__skills-dotted {
@@ -1230,7 +1233,11 @@ body.lock {
 /* 577-768px */
 @media only screen and (min-width: 577px) {
   .container {
-    width: 527px;
+    min-width: 527px;
+  }
+
+  .header {
+    padding-bottom: 100px;
   }
 
   .ofer {
@@ -1274,17 +1281,27 @@ body.lock {
   }
 
   .rotate-shadows {
-    margin-right: 35px;
+    margin-right: 25px;
     margin-bottom: 0px;
   }
 
   .ofer__about-me {
-    width: 125px;
     text-align: left;
   }
 
+  .ofer__about-me span {
+    display: block;
+  }
+
   .ofer_about-wrap {
+    margin-top: -30px;
     margin-bottom: 0px;
+    align-items: start;
+  }
+
+  .ofer__laptop-img {
+    width: 400px;
+    margin-bottom: 70px;
   }
 
   .request-received-container {
