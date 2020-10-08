@@ -878,6 +878,8 @@ body.lock {
 
 .calculator-icon {
   width: 195px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .calculator-descr {
