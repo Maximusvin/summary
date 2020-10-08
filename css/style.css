@@ -1077,13 +1077,13 @@ body.lock {
   overflow: auto;
   transition: all 0.2s linear;
   pointer-events: none;
-  display: block;
   opacity: 0;
 }
 
 .modal-active {
   opacity: 1;
   pointer-events: all;
+  display: block;
 }
 
 .modal-close-btn {
