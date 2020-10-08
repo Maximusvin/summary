@@ -1477,6 +1477,11 @@ body.lock {
     z-index: 1;
   }
 
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
   .footer .container {
     flex-direction: row;
     justify-content: space-between;
