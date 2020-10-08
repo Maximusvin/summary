@@ -157,10 +157,14 @@
       <section class="about" id="about">
         <div class="container container-left">
           <h3 class="section-title about-title">I code things from scratch_</h3>
-          <p class="about-descr">
+          <p class="about-descr about-descr-mob">
             <span>[and help to</span>
             <span>create great web</span>
             <span>apps]</span>
+          </p>
+          <p class="about-descr about-descr-tab">
+            <span>[and help to create</span>
+            <span>great web apps]</span>
           </p>
           <div class="about-img-container">
             <p class="about-img-text">
@@ -409,9 +413,10 @@
             <span class="calculator-descr-accent">approximate</span>
             <span>calculation</span>
           </p>
-          <img src="img/calculator.svg" alt="calculator" class="calculator-icon" />
-          <p class="calculator-text">/ The final cost depends on the results of the interview</p>
-
+          <div class="calculator-img-wrap">
+            <img src="img/calculator.svg" alt="calculator" class="calculator-icon" />
+            <p class="calculator-text">/ The final cost depends on the results of the interview</p>
+          </div>
           <form class="calculator-form">
             <div class="calculator-form__input">
               <label for="calculator-form-website-type" class="calculator-form__title">What you want me to do:</label>
@@ -497,49 +502,56 @@
 
     <footer class="footer" id="contact">
       <div class="container">
-        <p class="footer__title">Maxim Kozlov</p>
-        <p class="footer__subtitle">Frontend Developer</p>
+        <div class="footer__wrap-content">
+          <p class="footer__title">Maxim Kozlov</p>
+          <p class="footer__subtitle">Frontend Developer</p>
 
-        <a href="tel:+380979769625" class="phone">+38 (097) 97-696-25</a>
-        <a href="mailto:maximusvin@gmail.com" class="email">Maximusvin@gmail.com</a>
-
-        <ul class="social-icon">
-          <li class="social-icon__items">
-            <a href="https://www.facebook.com/kozlov.m.n" class="social-icon__link" target="blank">
-              <svg class="icon">
-                <use href="./img/icon.svg#facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-icon__items">
-            <a href="https://www.instagram.com/maximusvin/" class="social-icon__link" target="blank">
-              <svg class="icon">
-                <use href="./img/icon.svg#instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-icon__items">
-            <a href="https://www.linkedin.com/in/maxim-kozlov/" class="social-icon__link" target="blank">
-              <svg class="icon">
-                <use href="./img/icon.svg#linkedin"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-icon__items">
-            <a href="https://github.com/Maximusvin" class="social-icon__link" target="blank">
-              <svg class="icon">
-                <use href="./img/icon.svg#github"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-icon__items">
-            <a href="https://t.me/maximusvin" class="social-icon__link" target="blank">
-              <svg class="icon">
-                <use href="./img/icon.svg#telegram"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+          <div class="footer__contack-wrap-mob">
+            <a href="tel:+380979769625" class="phone">+38 (097) 97-696-25</a>
+            <a href="mailto:maximusvin@gmail.com" class="email">Maximusvin@gmail.com</a>
+          </div>
+          <ul class="social-icon">
+            <li class="social-icon__items">
+              <a href="https://www.facebook.com/kozlov.m.n" class="social-icon__link" target="blank">
+                <svg class="icon">
+                  <use href="./img/icon.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon__items">
+              <a href="https://www.instagram.com/maximusvin/" class="social-icon__link" target="blank">
+                <svg class="icon">
+                  <use href="./img/icon.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon__items">
+              <a href="https://www.linkedin.com/in/maxim-kozlov/" class="social-icon__link" target="blank">
+                <svg class="icon">
+                  <use href="./img/icon.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon__items">
+              <a href="https://github.com/Maximusvin" class="social-icon__link" target="blank">
+                <svg class="icon">
+                  <use href="./img/icon.svg#github"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon__items">
+              <a href="https://t.me/maximusvin" class="social-icon__link" target="blank">
+                <svg class="icon">
+                  <use href="./img/icon.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__contack-wrap-tab">
+          <a href="tel:+380979769625" class="phone">+38 (097) 97-696-25</a>
+          <a href="mailto:maximusvin@gmail.com" class="email">Maximusvin@gmail.com</a>
+        </div>
       </div>
     </footer>
 
