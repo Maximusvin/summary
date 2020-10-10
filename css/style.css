@@ -269,6 +269,10 @@ input[type='radio'].visually-hidden {
   background-color: var(--c-accent);
 }
 
+.menu {
+  margin-left: 70px;
+}
+
 .menu__item:not(:last-child) {
   margin-right: 20px;
 }
