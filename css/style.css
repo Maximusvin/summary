@@ -375,7 +375,11 @@ body.lock {
   margin-right: auto;
   padding-top: 35px;
 }
-
+.ofer__front-page-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .ofer__name {
   font-weight: bold;
   font-size: 26px;
@@ -570,6 +574,10 @@ body.lock {
 
 .experience__skills:hover .experience__skills-accent {
   background-color: var(--c-accent);
+}
+
+.scroll-wrap {
+  display: none;
 }
 
 .section-title {
@@ -1084,8 +1092,11 @@ body.lock {
 
 .calculator-form__input .choices__item .choices__button {
   border-left: none;
-  margin: 0;
-  padding-left: 8px;
+  margin: 0 0 0 5px;
+}
+
+.calculator-descr-tab {
+  display: none;
 }
 
 /* MODAL */
@@ -1442,6 +1453,7 @@ body.lock {
   }
   .callback-form__btn {
     margin-top: 20px;
+    width: 350px;
   }
 
   .calculator .container {
@@ -1450,7 +1462,17 @@ body.lock {
 
   .calculator-title {
     width: 400px;
+    font-size: 36px;
+    line-height: 43px;
     margin-bottom: 40px;
+  }
+
+  .calculator-descr-mob {
+    display: none;
+  }
+
+  .calculator-descr-tab {
+    display: inline-block;
   }
 
   .calculator-img-wrap {
@@ -1477,6 +1499,7 @@ body.lock {
   .calculator-form {
     width: 550px;
     z-index: 1;
+    padding: 60px 80px 70px;
   }
 
   .footer {
@@ -1552,6 +1575,20 @@ body.lock {
     width: 942px;
   }
 
+  .about .container,
+  .personal-projects .container,
+  .team-projects .container,
+  .callback-form .container,
+  .calculator .container,
+  .footer .container {
+    width: 942px;
+  }
+
+  .header {
+    padding-top: 40px;
+    padding-bottom: 160px;
+  }
+
   .menu {
     display: flex;
     justify-content: space-between;
@@ -1561,15 +1598,136 @@ body.lock {
     display: none;
   }
 
+  .ofer {
+    position: relative;
+    flex-direction: row;
+    max-width: 100%;
+    align-items: start;
+    justify-content: space-between;
+    overflow-x: hidden;
+  }
+
+  .ofer__laptop-img {
+    position: absolute;
+    width: 286px;
+    bottom: -3px;
+    right: -40px;
+    margin-bottom: 0px;
+  }
+
+  .ofer__name {
+    margin-left: -70px;
+  }
+
+  .ofer__title {
+    font-size: 70px;
+    line-height: 84px;
+    margin-bottom: 35px;
+  }
+
+  .ofer__description {
+    text-align: left;
+    margin-bottom: 65px;
+  }
+
+  .ofer__title-dev {
+    margin-right: -75px;
+  }
+
+  .ofer__btn {
+    width: 387px;
+    margin-bottom: 0;
+  }
+
+  .offer__video-btn {
+    padding: 11px 25px;
+  }
+
+  .desctop-element-hide {
+    display: none;
+  }
+
+  .ofer__foto-wrap {
+    margin-bottom: 0px;
+    order: 3;
+  }
+
+  .ofer__about-me {
+    text-align: right;
+  }
+
+  .ofer_about-wrap {
+    margin-top: 0px;
+    align-items: normal;
+  }
+
+  .experience {
+    display: block;
+    width: 185px;
+  }
+
+  .experience-wrap {
+    order: 1;
+  }
+
+  .experience__title {
+    text-align: left;
+  }
+
+  .experience__skills-wrap {
+    padding-left: 0;
+  }
+
+  .scroll-wrap {
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 135%;
+    color: #4f5b70;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  .scroll {
+    margin-right: 10px;
+    color: #4f5b70;
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 135%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .ofer__front-page-wrap {
+    order: 2;
+    width: 470px;
+  }
+
   .contact {
     display: none;
   }
 }
 
-/* 1201px */
+/* 1200px */
 @media screen and (min-width: 1200px) {
   .container {
     width: 1150px;
+  }
+
+  .about .container,
+  .personal-projects .container,
+  .team-projects .container,
+  .callback-form .container,
+  .calculator .container,
+  .footer .container {
+    width: 1150px;
+  }
+
+  .ofer__laptop-img {
+    width: 334px;
+    right: 0;
   }
 }
 
