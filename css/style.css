@@ -475,6 +475,10 @@ body.lock {
   }
 }
 
+.desctop-element-vis {
+  display: none;
+}
+
 .ofer_about-wrap {
   display: flex;
   flex-direction: column;
@@ -1609,9 +1613,9 @@ body.lock {
 
   .ofer__laptop-img {
     position: absolute;
-    width: 286px;
+    width: 220px;
     bottom: -3px;
-    right: -40px;
+    right: 0;
     margin-bottom: 0px;
   }
 
@@ -1700,10 +1704,31 @@ body.lock {
     text-transform: uppercase;
   }
 
+  .desctop-element-vis {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -46px;
+    right: -77px;
+    z-index: -1;
+    margin-right: 0;
+    display: flex;
+  }
+
+  .ofer__about-img {
+    width: 228px;
+  }
+
   .ofer__front-page-wrap {
     order: 2;
     width: 470px;
+    position: relative;
+    z-index: 1;
   }
+
+  /* .ofer__front-page-wrap:hover .desctop-element-vis {
+    display: flex;
+  } */
 
   .contact {
     display: none;
@@ -1767,6 +1792,10 @@ body.lock {
   .ofer__laptop-img {
     width: 334px;
     right: 0;
+  }
+
+  .desctop-element-vis {
+    right: -124px;
   }
 
   .team-projects-title-bgd {
