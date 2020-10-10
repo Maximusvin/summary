@@ -1836,6 +1836,10 @@ body.lock {
     margin-right: 0;
   }
 
+  .menu.active {
+    margin-left: 0;
+  }
+
   .menu.active .menu__link {
     font-weight: bold;
     font-size: 15px;
