@@ -1287,7 +1287,7 @@ body.lock {
 
 .to-header-btn {
   overflow: hidden;
-  /* display: none; */
+  display: none;
   position: fixed;
   right: 15px;
   bottom: 50px;
