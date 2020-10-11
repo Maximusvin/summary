@@ -1292,8 +1292,8 @@ body.lock {
   right: 15px;
   bottom: 50px;
   z-index: 30;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
 }
 
@@ -1303,8 +1303,8 @@ body.lock {
 }
 
 .to-header-btn__img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   fill: var(--c-accent);
 }
 
