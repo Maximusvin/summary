@@ -2146,6 +2146,11 @@ body.lock {
     color: var(--txt-c-grey);
   }
 
+  .menu.active .menu__link:hover,
+  .menu.active .menu__link:focus {
+    color: var(--txt-c-accent);
+  }
+
   .header__btn {
     margin-right: 22px;
   }
