@@ -1718,6 +1718,8 @@ body.lock {
     z-index: -1;
     margin-right: 0;
     display: flex;
+    opacity: 0;
+    transition: all 0.2s linear;
   }
 
   .ofer__about-img {
@@ -1731,9 +1733,9 @@ body.lock {
     z-index: 1;
   }
 
-  /* .ofer__front-page-wrap:hover .desctop-element-vis {
-    display: flex;
-  } */
+  .ofer__front-page-wrap:hover .desctop-element-vis {
+    opacity: 1;
+  }
 
   .contact {
     display: none;
