@@ -611,6 +611,10 @@ body.lock {
   /* align-items: center; */
 }
 
+.desktop-element {
+  display: none;
+}
+
 .about-title {
   color: var(--txt-c-dark);
   text-align: left;
@@ -1786,6 +1790,10 @@ body.lock {
     padding-bottom: 145px;
   }
 
+  .desktop-element {
+    display: block;
+  }
+
   .about-title {
     font-size: 70px;
     line-height: 84px;
@@ -1881,6 +1889,20 @@ body.lock {
 
   .desctop-element-vis {
     right: -170px;
+  }
+
+  .about-img-text {
+    font-size: 250px;
+    line-height: 300px;
+    right: -269px;
+    top: -23px;
+    z-index: 1;
+  }
+
+  .about-img {
+    width: 421px;
+    height: 455px;
+    left: -35px;
   }
 
   .team-projects-title-bgd {
