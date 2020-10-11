@@ -1978,6 +1978,21 @@ body.lock {
   .phone {
     margin-bottom: 0;
   }
+
+  .request-received-secondary-msg {
+    width: 100%;
+  }
+
+  .project-modal-container {
+    width: 750px;
+    padding-top: 95px;
+    padding-bottom: 95px;
+  }
+
+  .project-modal-scrollable {
+    padding-left: 95px;
+    padding-right: 95px;
+  }
 }
 
 /* 1200px */
