@@ -916,6 +916,7 @@ body.lock {
 .calculator-descr span {
   background: var(--c-accent);
   padding: 5px;
+  background: linear-gradient(#ff6b08, #ff6b08 42%, #d000b8);
 }
 
 .calculator-descr .calculator-descr-accent {
@@ -1074,7 +1075,7 @@ body.lock {
 /* MULTI SELECT */
 
 .calculator-form__input .tech-input-container .choices__item {
-  background: var(--c-accent);
+  background: linear-gradient(#ff6b08, #ff6b08 42%, #d000b8);
   border: none;
   border-radius: 3px;
   position: relative;
@@ -1865,7 +1866,7 @@ body.lock {
   }
 
   .about-projects-bar {
-    background: var(--c-accent);
+    background: linear-gradient(#ff6b08, #ff6b08 42%, #d000b8);
     width: 159px;
     height: 465px;
     display: flex;
