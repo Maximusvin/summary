@@ -1971,6 +1971,10 @@ body.lock {
     width: 100%;
   }
 
+  .footer__subtitle {
+    margin-bottom: 0;
+  }
+
   .phone {
     margin-bottom: 0;
   }
