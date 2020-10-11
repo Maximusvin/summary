@@ -2065,6 +2065,10 @@ body.lock {
     top: -85px;
     right: -152px;
   }
+
+  .project-modal-container {
+    width: 900px;
+  }
 }
 
 @media screen and (max-width: 991px) {
