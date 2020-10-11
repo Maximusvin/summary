@@ -935,6 +935,12 @@ body.lock {
   margin: 20px 0 30px 0;
 }
 
+.calculator__text-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .calculator-form {
   background-color: var(--c-light);
   padding: 30px 20px 40px;
@@ -1909,6 +1915,10 @@ body.lock {
   .calculator .container {
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .calculator__text-wrap {
+    align-items: center;
   }
 
   .calculator-form {
