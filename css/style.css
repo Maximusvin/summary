@@ -1951,6 +1951,29 @@ body.lock {
     top: -34px;
     right: -45px;
   }
+
+  .footer {
+    padding: 50px 0;
+  }
+  .footer__contack-wrap-tab {
+    display: none;
+  }
+
+  .footer__contack-wrap-mob {
+    display: block;
+    text-align: center;
+  }
+
+  .footer__wrap-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .phone {
+    margin-bottom: 0;
+  }
 }
 
 /* 1200px */
