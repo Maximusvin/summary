@@ -1932,7 +1932,7 @@ body.lock {
   }
 
   .calculator__text-wrap {
-    align-items: center;
+    align-items: flex-start;
   }
 
   .calculator-form {
