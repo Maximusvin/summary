@@ -1758,6 +1758,12 @@ body.lock {
     line-height: 135%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    transition: all 0.2s linear;
+  }
+
+  .scroll:hover,
+  .scroll:focus {
+    color: var(--c-accent);
   }
 
   .desctop-element-vis {
