@@ -1865,6 +1865,41 @@ body.lock {
     height: 295px;
     left: 60px;
   }
+
+  .callback-form__container {
+    padding-top: 90px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .callback-form__title {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .callback-form__desc {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .input__wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .callback-form__input {
+    width: 261px;
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+
+  .callback-form__btn {
+    width: 261px;
+    margin-top: 0;
+  }
 }
 
 /* 1200px */
@@ -1907,6 +1942,11 @@ body.lock {
 
   .team-projects-title-bgd {
     left: 274px;
+  }
+
+  .callback-form__container {
+    padding-left: 150px;
+    padding-right: 150px;
   }
 }
 
