@@ -1714,7 +1714,7 @@ body.lock {
     height: 250px;
     position: absolute;
     top: -46px;
-    right: -77px;
+    right: -106px;
     z-index: -1;
     margin-right: 0;
     display: flex;
@@ -1726,7 +1726,7 @@ body.lock {
 
   .ofer__front-page-wrap {
     order: 2;
-    width: 470px;
+    width: 380px;
     position: relative;
     z-index: 1;
   }
@@ -1800,7 +1800,7 @@ body.lock {
   }
 
   .desctop-element-vis {
-    right: -124px;
+    right: -170px;
   }
 
   .team-projects-title-bgd {
