@@ -581,7 +581,8 @@ body.lock {
   line-height: 19px;
 }
 
-.experience__skills:hover .experience__skills-accent {
+.experience:hover .experience__skills-accent,
+.experience:focus .experience__skills-accent {
   background-color: var(--c-accent);
 }
 
