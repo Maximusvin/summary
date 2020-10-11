@@ -583,7 +583,7 @@ body.lock {
 
 .experience:hover .experience__skills-accent,
 .experience:focus .experience__skills-accent {
-  background: linear-gradient(#ff6b08, #ff6b08 42%, #d000b8);
+  background-color: var(--c-accent);
 }
 
 .scroll-wrap {
