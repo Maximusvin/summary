@@ -1275,6 +1275,10 @@ body.lock {
   display: none;
 }
 
+.project-modal-scrollable .personal-project-btn {
+  width: 240px;
+}
+
 /* ------ Media Queries ------ */
 /* 577-768px */
 @media only screen and (min-width: 577px) {
@@ -1546,6 +1550,12 @@ body.lock {
 
   .email {
     margin-bottom: 0px;
+  }
+
+  .project-modal-scrollable .personal-project-btn {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
