@@ -193,6 +193,16 @@ input[type='radio'].visually-hidden {
   overflow: hidden;
 }
 
+.swiper-container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.swipper-vis {
+  display: none;
+}
+
 .container {
   width: 93%;
   margin: 0 auto;
@@ -1320,6 +1330,10 @@ body.lock {
 @media only screen and (min-width: 577px) {
   .container {
     width: 527px;
+  }
+
+  .swipper-vis {
+    display: block;
   }
 
   .header {

@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/font-awesome.min.css" />
     <link rel="stylesheet" href="./css/choices.min.css" />
+    <link rel="stylesheet" href="./css/swiper.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/aos.css" />
   </head>
@@ -84,7 +85,7 @@
             <div class="rotate-shadows desctop-element-hide">
               <img src="./img/Kozlov.png" alt="Maxim Kozlov" class="ofer__about-img" />
             </div>
-            <div class="ofer_about-wrap" data-aos="fade-left" data-aos-delay="200">
+            <div class="ofer_about-wrap" data-aos="fade-left" data-aos-delay="100">
               <p class="ofer__about-me">About me <span>in 2 minutes</span></p>
               <button type="button" class="offer__video-btn accent-btn" id="my-video-btn">
                 <i class="fas fa-play"></i>
@@ -95,7 +96,7 @@
           <img src="./img/laptop.svg" class="ofer__laptop-img" alt="laptop" />
 
           <div class="experience-wrap">
-            <div class="experience" data-aos="fade-right" data-aos-delay="200">
+            <div class="experience" data-aos="fade-right" data-aos-delay="100">
               <h3 class="experience__title">My Coding Skills & Experience</h3>
 
               <div class="experience__skills-wrap">
@@ -633,12 +634,34 @@
 
       <!-- PERSONAL PROJECTS P1 -->
 
-      <div class="modal project-modal modal-area-bgd" id="personal-p1">
+      <div class="modal project-modal modal-area-bgd modal-active" id="personal-p1">
         <div class="project-modal-container modal-area-content">
           <i class="fas fa-times modal-close-btn"></i>
 
           <div class="project-modal-scrollable">
-            <img class="project-modal-img" src="img/projects/personal/p1.jpg" alt="full stack project image 1" />
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <img
+                  class="project-modal-img swiper-slide"
+                  src="img/projects/personal/p1.jpg"
+                  alt="full stack project image 1"
+                />
+                <img
+                  class="project-modal-img swiper-slide"
+                  src="img/projects/personal/p2.jpg"
+                  alt="full stack project image 1"
+                />
+                <img
+                  class="project-modal-img swiper-slide"
+                  src="img/projects/personal/p3.jpg"
+                  alt="full stack project image 1"
+                />
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev swipper-vis"></div>
+              <div class="swiper-button-next swipper-vis"></div>
+              <div class="swiper-scrollbar"></div>
+            </div>
 
             <a href="https://maximusvin.github.io/wayup-dz7/" class="project-modal-title" target="_blank"
               >Goit Full Stack разработчик</a
@@ -1062,5 +1085,6 @@
     <script src="./js/callback-form.js" type="module"></script>
     <script src="./js/aos.js"></script>
     <script src="./js/animation-on-scroll.js"></script>
+    <script src="./js/swiper.min.js"></script>
   </body>
 </html>
