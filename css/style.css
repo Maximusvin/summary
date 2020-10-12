@@ -699,6 +699,13 @@ body.lock {
 
 /* PERSONAL PROJECT */
 
+.project-title {
+  font-size: 17px;
+  line-height: 150%;
+  color: var(--txt-c-light);
+  font-weight: bold;
+}
+
 .personal-projects {
   background: var(--c-dark);
   padding-top: 50px;
@@ -712,10 +719,8 @@ body.lock {
 }
 
 .personal-project-item-container {
-  padding-top: 40px;
   background: var(--c-dark-blue);
   border-radius: 5px 5px 0 0;
-  position: relative;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
@@ -739,9 +744,11 @@ body.lock {
 
 .projet-item-dot-container {
   display: flex;
-  position: absolute;
-  top: 17px;
-  left: 20px;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .personal-project-item {
@@ -768,6 +775,20 @@ body.lock {
 .personal-project-icon {
   margin-right: 15px;
   padding-top: 4px;
+}
+
+.img-icon-wrap {
+  display: flex;
+}
+
+.project-icon {
+  width: 20px;
+  margin-left: 5px;
+  transition: all 0.2s linear;
+}
+
+.project-icon:hover {
+  transform: scale(1.1);
 }
 
 .personal-project-btn {

@@ -48,7 +48,8 @@ $(document).ready(function () {
 // SLIDER
 var mySwiper = new Swiper('.swiper-container', {
   // Optional parameters  
-  loop: true,
+  // loop: true,
+  grabCursor: true,
 
   // If we need pagination
   pagination: {
@@ -66,3 +67,5 @@ var mySwiper = new Swiper('.swiper-container', {
     el: '.swiper-scrollbar',
   },
 })
+
+
