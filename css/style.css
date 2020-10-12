@@ -807,11 +807,13 @@ body.lock {
   right: 0;
   opacity: 0;
   transition: all 0.3s linear;
+  visibility: hidden;
 }
 
 .icon-wrap:hover .prompt,
 .icon-wrap:focus .prompt {
   opacity: 1;
+  visibility: visible;
 }
 
 .personal-project-btn {
