@@ -188,7 +188,6 @@ input[type='radio'].visually-hidden {
   overflow: hidden;
 }
 
-.container,
 .header,
 .calculator {
   overflow: hidden;
@@ -1408,7 +1407,7 @@ body.lock {
     position: absolute;
     right: 0;
     top: 200px;
-    font-size: 200px;
+    font-size: 183px;
     line-height: 240px;
   }
 
@@ -1616,8 +1615,9 @@ body.lock {
   }
 
   .about-img-text {
-    top: 175px;
+    top: 144px;
     right: 22px;
+    font-size: 203px;
   }
 
   .about-img {
