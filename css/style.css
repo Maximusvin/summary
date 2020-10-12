@@ -188,6 +188,12 @@ input[type='radio'].visually-hidden {
   overflow: hidden;
 }
 
+.container,
+.header,
+.calculator {
+  overflow: hidden;
+}
+
 .container {
   width: 93%;
   margin: 0 auto;
