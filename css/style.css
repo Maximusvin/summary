@@ -799,7 +799,9 @@ body.lock {
   display: block;
   font-size: 12px;
   background-color: #fff;
-  border-radius: 5%;
+  /* border: 1px solid var(--c-dark-blue); */
+  box-shadow: 0 0 2px var(--c-dark-blue);
+  border-radius: 3%;
   padding: 3px 5px;
   width: max-content;
   position: absolute;
